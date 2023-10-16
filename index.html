@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+    
+    <!-- POCZĄTEK NAVA -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="bi bi-camera"> </i>LensArt</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#carousel-scrolling">Strona główna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#galeria">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#accordionFlushExample">Cennik</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+Usługi                    </a>
+                    <ul class="dropdown-menu bg-dark " aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item text-light" href="#wesele">Wesele</a></li>
+                        <li><a class="dropdown-item text-light" href="#chrzest">Chrzest</a></li>
+                        <li><a class="dropdown-item text-light " href="#inne">Inne imprezy okolicznościowe</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#kontakt">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- KONIEC NAVA -->
+
+<!-- CAROUSEL -->
+<div id="myCarousel" class="carousel slide" id="carousel-scrolling" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#333" />
+                </svg>
+            <div class="container">
+                <div class="carousel-caption text-start">
+                    <h1>Mamy duże doświadczenie</h1>
+                    <p>Firma ta ma duże doświadczenie w branży fotograficznej, co oznacza, że jej pracownicy posiadają
+                        nie tylko umiejętności fotograficzne, ale także wiedzę na temat technologii, sprzętu i trendów w
+                        dziedzinie fotografii</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#555" /></svg>
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Szeroki zakres usług</h1>
+                    <p>Po ponad 10 latach działalności firma ta prawdopodobnie rozszerzyła swój zakres usług. Oferuje
+                        różne rodzaje sesji fotograficznych, w tym sesje portretowe, ślubne, korporacyjne, reklamowe
+                        itp.</p>
+                    <p><a class="btn btn-close-white btn-primary" href="#uslugi">Zobacz więcej</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#777" />
+            </svg>
+
+            <div class="container" >
+                <div class="carousel-caption text-end">
+                    <h1>Cennik</h1>
+                    <p>Dla każdej usługi lub pakietu określ cenę. Możesz uwzględnić cenę za godzinę pracy fotografa lub
+                        ustalić stałą opłatę za całą sesję. Jeśli oferujesz różne opcje edycji zdjęć lub dodatkowe
+                        produkty (takie jak albumy, odbitki), to również zawrzyj je w cenniku.</p>
+                    <p><a class="btn btn-close-white btn-primary" href="#accordionFlushExample">Galeria</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- KONIEC CAROUSEL -->
+
+
+<!-- GALERIA -->
+
+<div class="container" id="galeria">
+    <h1 class="text-center my-4">Galeria ze zdjęciami</h1>
+
+    <div class="row">
+        <div class="col-md-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Wedding_photographer_at_work.jpg"class="img-thumbnail" alt="Zdjęcie 1">
+
+                <img src="https://picsum.photos/1250/901" class="img-thumbnail" alt="Zdjęcie 1">
+                <img src="https://picsum.photos/1250/1500" class="img-thumbnail" alt="Zdjęcie 2">
+                <img src="https://picsum.photos/600/600" class="img-thumbnail" alt="Zdjęcie 3">
+                <img src="https://picsum.photos/600/850" class="img-thumbnail" alt="Zdjęcie 4">
+
+        </div>
+
+        <div class="col-md-4">
+                <img src="https://picsum.photos/600/800" class="img-thumbnail" alt="Zdjęcie 5">
+                <img src="https://picsum.photos/600/700" class="img-thumbnail" alt="Zdjęcie 6">
+                <img src="https://picsum.photos/600/750" class="img-thumbnail" alt="Zdjęcie 7">
+                <img src="https://picsum.photos/600/720" class="img-thumbnail" alt="Zdjęcie 8">
+
+
+
+            </a>
+        </div>
+
+        <div class="col-md-4">
+                <img src="https://picsum.photos/1250/900" class="img-thumbnail" alt="Zdjęcie 9">
+                <img src="https://picsum.photos/1000/1200" class="img-thumbnail" alt="Zdjęcie 10">
+                <img src="https://picsum.photos/1670/600" class="img-thumbnail" alt="Zdjęcie 11">
+                <img src="https://picsum.photos/600/1000" class="img-thumbnail" alt="Zdjęcie 12">
+                <img src="https://picsum.photos/600/580" class="img-thumbnail" alt="Zdjęcie 123">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<!-- KONIEC GALERII -->
+
+<!-- CENNIK -->
+<div class="container-pricing">
+<div class="accordion accordion-flush" id="accordionFlushExample">
+    <p class="fs-1 text-center fw-bold ">Cennik</p>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed text-bg-dark fw-bold" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Ile kosztuje fotograf na wesele?
+            </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Koszt fotografa na wesele może znacząco się różnić w zależności od lokalizacji,
+                doświadczenia fotografa oraz zakresu usług. Średni koszt w Polsce to około 2000 do 4000 złotych za pełną
+                usługę, która obejmuje fotografię przed, w trakcie i po ceremonii ślubnej oraz obróbkę zdjęć.
+                Fotografowie o większym doświadczeniu lub oferujący dodatkowe usługi, takie jak sesje plenerowe, mogą
+                kosztować więcej. Pamiętaj, że ceny mogą znacznie różnić się w zależności od regionu i indywidualnych
+                preferencji fotografa.
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Gdzie można się dowiedzieć o wolnym terminie?
+            </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">W zakładce kontakt znajduję się telefon bądź email firmy. Telefon jest czynny pn-pt w godzinach 8-16 albo pisać na podany tam mail. Zawsze znajdziemy wolny termin. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sapiente nisi at, iste fugit maxime, tenetur architecto accusantium omnis repellendus itaque eos assumenda reiciendis ipsa.
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed fw-bold bg-dark text-bg-dark " type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Jakie inne imprezy okolicznościowe oferujecie?
+            </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse " aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas suscipit quibusdam quos earum illo harum voluptates quidem ab dolorum inventore corporis placeat nemo provident, sint autem, molestiae rerum excepturi maxime officiis eos porro odio assumenda? Exercitationem inventore facere delectus esse itaque accusamus fuga, amet illo numquam ut ea similique. Sint.</div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- KONIEC CENNIKA -->
+
+<!-- USŁUGI -->
+
+<div class="container marketing" id="uslugi">
+    <hr class="featurette-divider">
+    <div class="row featurette" id="wesele">
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><i>Najpiękniejsze chwile, uwiecznione na zawsze</i> - <span style="color: #3552db;"> Fotografia Ślubna</span>
+            </h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolorem dicta laborum distinctio blanditiis molestiae necessitatibus, architecto fugiat a, sapiente velit, totam sit eveniet omnis.</p>
+        </div>
+        <div class="col-md-5">
+                                <img src="https://aspeneventworks.com/app/uploads/2017/03/1-500x500.jpg"
+                                    alt="zdjecie ślubowe" width="100%" height="100%">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="chrzest">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading"><span style="color: #3552db;">Uroczyste Chrzty </span> – Zdjęcia, Które Kształtują Wspomnienia
+            </h2>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis doloribus optio aperiam, odit eaque dolorem non, hic commodi nobis, perspiciatis ad? Porro quos debitis autem sed corporis enim laudantium quas.</p>    
+        </div>
+        <div class="col-md-5 order-md-1">
+            
+            <img src="https://fotofinezyjni.pl/wp-content/uploads/2018/04/chrzest-500x500.jpg" alt="zdjecie chrzest"
+                width="100%" height="100%">
+
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="inne">
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><i>Celebruj życie obiektywem </i> – <span style="color: #3552db;">Fotografia Urodzinowa</span></h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laboriosam architecto alias quasi. Ducimus, obcaecati voluptatem, eveniet tempore veritatis quidem voluptas ea necessitatibus sequi minus rerum totam quisquam! Debitis, dolores.</p>
+        </div>
+        <div class="col-md-5">
+            <img src="https://jccdallas.org/wp-content/uploads/2021/10/Headerbild-Kidsparty-1200x800-1-500x500.jpg"
+                alt="zdjecie urodzinowe"
+                width="100%" height="100%">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+</div>
+<!-- KONIEC USŁUG -->
+
+
+<!-- KONTAKT -->
+<div class="m-1" id="kontakt">
+    <h1>Skontaktuj się z nami</h1>
+    <div class="fs-5 fw-light mb-2">Opublikuj swoją wiadomość poniżej. Odpowiemy tak szybko, jak to możliwe</div>
+    <form id="contact_form" name="contact_form" method="post">
+        <div class="mb-5">
+            <label for="message">Wiadomość</label>
+            <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+        </div>
+        <div class="mb-5 row">
+            <div class="col">
+                <label>Podaj imie:</label>
+                <input type="text" required maxlength="50" class="form-control" id="name" name="name">
+            </div>
+            <div class="col">
+                <label>Podaj nazwisko:</label>
+                <input type="text" required maxlength="50" class="form-control" id="name" name="name">
+            </div>
+            <div class="col">
+                <label for="email_addr">Podaj adres email:</label>
+                <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+                    placeholder="name@example.com">
+            </div>
+        </div>
+        <div class="d-grid">
+            <button type="submit" class="btn btn-dark">Wyślij</button>
+        </div>
+    </form>
+</div>
+
+
+
+<!-- KONIEC KONTAKT -->
+
+
+<!-- FOOTER -->
+
+<footer class="bg-dark text-center text-white w-auto">
+    <div class="container p-4 pb-0">
+        <section class="mb-4">
+            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="bi bi-facebook"></i></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+               <i class="bi bi-twitter-x"></i></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                <i class="bi bi-google"></i></a>
+
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                <i class="bi bi-instagram"></i></a>
+
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                <i class="bi bi-linkedin"></i></a>
+
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                <i class="bi bi-github"></i></a>
+
+        </section>
+        <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-white" href="#">Loremlorem.com</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+
+<!-- KONIEC FOOTER -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    
+
+</script>
+</body>
+</html>
